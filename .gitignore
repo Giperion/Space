@@ -16,6 +16,8 @@ obj/
 *.user
 *.unityproj
 *.booproj
+/*.csproj
+/*.sln
 
 # ============ #
 # OS generated #

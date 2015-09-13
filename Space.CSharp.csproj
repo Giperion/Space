@@ -76,6 +76,7 @@
   <ItemGroup>
     <Compile Include="Assets\SpaceGame\Scripts\Bonuses\B_LaserScript.cs" />
     <Compile Include="Assets\SpaceGame\Scripts\Bonuses\B_SpeedScript.cs" />
+    <Compile Include="Assets\SpaceGame\Scripts\Generator\Generator.cs" />
     <Compile Include="Assets\SpaceGame\Scripts\Player\CamScript.cs" />
     <Compile Include="Assets\SpaceGame\Scripts\Player\IceBlastScript.cs" />
     <Compile Include="Assets\SpaceGame\Scripts\Player\PlayerSpace.cs" />

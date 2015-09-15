@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class PlayerSpace : MonoBehaviour
 {
     [Header("Состояния персонажа")]
-    public bool immortality = false; // Неузвимость
+    public bool immortality = false; // Неузвимость 
 
     [Header("Префабы объектов")]
     public GameObject PrefabOfIceBlast; // Снаяряд выстрела

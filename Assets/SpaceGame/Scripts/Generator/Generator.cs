@@ -3,41 +3,48 @@ using System.Collections;
 
 public class Generator : MonoBehaviour {
 
-    public GameObject[] ForestChunks;
-    public GameObject PlayerObj;
+    public GameObject[] M_Chunks; // 0 - лес, 1 - переход лес/пещера, 2 - пещера, 3 - переход пещера лес 
 
-    public bool isCavern;
+    int zNotePosCursor = 0;
+    int numberOfLastChunk = 0;
+    int typeOfLastChunk = 0; // 0 - лес, 1 - переход лес/пещера, 2 - пещера, 3 - переход пещера лес 
 
-    Vector3 posNextChunck = new Vector3(0, 0, 0);
-
-    private bool NowCanCallPlayerPos;
-
-    // Use this for initialization
     void Start ()
-    {
-        NowCanCallPlayerPos = true;
-    }
-	
-	// Update is called once per frame
-	void Update ()
     {
         StartCoroutine(callPositionPlayer());
     }
+
+	void Update ()
+    {  
+          
+    }
+
     IEnumerator callPositionPlayer()
     {
-        if (NowCanCallPlayerPos)
-        {
-            NowCanCallPlayerPos = false;
-            yield return new WaitForSeconds(2);
-            print(PlayerObj.GetComponent<Transform>().position.z.ToString());
-            Instantiate(ForestChunks[1], V3_whereCreateChank(PlayerObj.GetComponent<Transform>().position), Quaternion.identity);
-            NowCanCallPlayerPos = true;
-        }
+        yield return new WaitForSeconds(2);
+        AddCunk();      
     }
-    Vector3 V3_whereCreateChank(Vector3 nowPosPlayer)
+
+    void AddCunk()
     {
-        // Здесь надо позицию игрока обработать и предать положение чанка
-        posNextChunck = nowPosPlayer;
-        return posNextChunck;
+        // Добавить условие на нужду создание этого чанка по времени
+        if (numberOfLastChunk == 0)
+        {
+           Instantiate(M_Chunks[0], new Vector3(0, 0, zNotePosCursor), Quaternion.identity);    
+        }
+        else if (numberOfLastChunk != 0)
+        {
+            if (typeOfLastChunk == 0)
+            {
+                //рандомим тип след чанка
+            }
+        }
+
+        zNotePosCursor += 10;
+        numberOfLastChunk++;
+    }
+    void RemoveChunk()
+    {
+
     }
 }

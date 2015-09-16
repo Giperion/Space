@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 166448}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -79.3484344, y: 55.9924507, z: -15.0200005}
-  m_LocalScale: {x: 1.34662259, y: 2.55779004, z: 1.50985146}
+  m_LocalScale: {x: 1.34662259, y: 1.79999995, z: 1.50985146}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -62,7 +62,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166448}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: 837f58105a6e52e4e948f5340a9bdd99, type: 3}
 --- !u!114 &11416234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -86,7 +86,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 8.68516827
-  m_Center: {x: 5.96046448e-08, y: 0, z: -8.94069672e-08}
+  m_Center: {x: 5.96046448e-08, y: .75999999, z: -8.94069672e-08}
 --- !u!136 &13689782
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -99,14 +99,26 @@ CapsuleCollider:
   m_Radius: .5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: .75999999, z: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300000, guid: 837f58105a6e52e4e948f5340a9bdd99, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Center.y
+      value: .75999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 1.79999995
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 166448}

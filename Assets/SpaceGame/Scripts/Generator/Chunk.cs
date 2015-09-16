@@ -17,6 +17,10 @@ public class Chunk : MonoBehaviour {
     }
     void CreateForestChunk()
     {
+        for (int i = 0; i <= 3; i++)
+        {
+            Instantiate(PrefabsForGenerick[i], new Vector3(this.transform.localPosition.x + Random.Range(-15, 15), this.transform.localPosition.y, this.transform.localPosition.z + Random.Range(-15, 15)), Quaternion.identity);
+        }
         Instantiate(PrefabsForGenerick[0], this.transform.localPosition, Quaternion.identity);
     }
 	

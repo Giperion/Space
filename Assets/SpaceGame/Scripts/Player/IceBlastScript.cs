@@ -20,7 +20,6 @@ public class IceBlastScript : MonoBehaviour {
     void OnCollisionEnter(Collision other)
     {
         Trashs.Remove(other.gameObject);
-        print("Blast Boomed");
         foreach (GameObject element in Trashs)
         {
             Destroy(element);
@@ -33,7 +32,6 @@ public class IceBlastScript : MonoBehaviour {
         if (ComponentOfList.tag == "Trash")
         {
             Trashs.Add(ComponentOfList.gameObject);
-            print("Add in list: Trash" + ComponentOfList.name);
         }
     }
     

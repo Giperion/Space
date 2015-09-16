@@ -87,6 +87,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PrefabsForGenerick:
   - {fileID: 166448, guid: b4a998d8b4a1a5141a02b0aa960d59f9, type: 2}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
   typeOfChunk: 0
 --- !u!1001 &100100000
 Prefab:
@@ -97,7 +100,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: PrefabsForGenerick.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_LocalScale.x
@@ -127,6 +130,18 @@ Prefab:
       propertyPath: PrefabsForGenerick.Array.data[0]
       value: 
       objectReference: {fileID: 166448, guid: b4a998d8b4a1a5141a02b0aa960d59f9, type: 2}
+    - target: {fileID: 0}
+      propertyPath: PrefabsForGenerick.Array.data[1]
+      value: 
+      objectReference: {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PrefabsForGenerick.Array.data[2]
+      value: 
+      objectReference: {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+    - target: {fileID: 0}
+      propertyPath: PrefabsForGenerick.Array.data[3]
+      value: 
+      objectReference: {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 144910}

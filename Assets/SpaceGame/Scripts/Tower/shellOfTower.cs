@@ -41,7 +41,6 @@ public class shellOfTower : MonoBehaviour {
     }
     void OnCollisionEnter(Collision other)
     {
-        print("228 it's worked!");
         if (other.gameObject.tag == "Player")
         {
             other.gameObject.GetComponent<PlayerSpace>().HitHP(5);

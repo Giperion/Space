@@ -20,7 +20,6 @@ public class TowerEnemy : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            print("Player here! ");
             if (stayOfReload == true)
             {
                 stayOfReload = false;
@@ -37,8 +36,6 @@ public class TowerEnemy : MonoBehaviour
 
     void CreateShell()
     {
-        print("Fire!");
-        Object ShellInstance;
-        ShellInstance = Instantiate(PrefabShellForTower, positionForShell, Quaternion.identity);
+        Instantiate(PrefabShellForTower, positionForShell, Quaternion.identity);
     }
 }

@@ -72,8 +72,13 @@ public class PlayerSpace : MonoBehaviour
             if (y >= -1.5)
                 MoveInSpace(Vector3.down);
 
-        if(Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
             Application.LoadLevel("SceneSpace");
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            IceArmor();
+        }
 
         if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 0)
             TakeSpeed(1, 120);        
@@ -200,5 +205,20 @@ public class PlayerSpace : MonoBehaviour
     {
         if (!immortality)
             HP -= hitHP;
+    }
+
+    // Скиллы
+    void IceArmor()
+    {
+        if (immortality)
+            immortality = false;
+        else
+            immortality = true;
+    }
+
+    // не рабочий таймер
+    IEnumerator TimeSpell(int second, int reloadSpell)
+    {
+        yield return new WaitForSeconds(second);
     }
 }

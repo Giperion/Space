@@ -19,9 +19,10 @@ public class Chunk : MonoBehaviour {
     {
         for (int i = 0; i <= 3; i++)
         {
-            Instantiate(PrefabsForGenerick[i], new Vector3(this.transform.localPosition.x + Random.Range(-15, 15), this.transform.localPosition.y, this.transform.localPosition.z + Random.Range(-15, 15)), Quaternion.identity);
+            GameObject bufferPrefab = Instantiate(PrefabsForGenerick[i], new Vector3(this.transform.localPosition.x + Random.Range(-15, 15), this.transform.localPosition.y, this.transform.localPosition.z + Random.Range(-15, 15)), Quaternion.identity) as GameObject;
+            bufferPrefab.transform.parent = transform;
         }
-        Instantiate(PrefabsForGenerick[0], this.transform.localPosition, Quaternion.identity);
+        //Instantiate(PrefabsForGenerick[0], this.transform.localPosition, Quaternion.identity);
     }
 	
 	void Update ()

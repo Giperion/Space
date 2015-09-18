@@ -24,6 +24,10 @@ public class Generator : MonoBehaviour {
     {
         if (needToReedNow)
             StartCoroutine(callPositionPlayer());
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            RemoveOldChunk(PlayerOnScene.transform.position.z);
+        }
     }
 
     IEnumerator callPositionPlayer()
@@ -51,8 +55,8 @@ public class Generator : MonoBehaviour {
 
     void CreateChunk(int typeOf = 0)
     {
-        GameObject bufferCunk = Instantiate(M_Chunks[WhichChunkNeed()], new Vector3(0, 0, zNotePosCursor), Quaternion.identity) as GameObject; // нужно как то доаблять их сразу в лист chunksOnScene
-        chunksOnScene.Add(bufferCunk);
+        GameObject bufferChunk = Instantiate(M_Chunks[WhichChunkNeed()], new Vector3(0, 0, zNotePosCursor), Quaternion.identity) as GameObject; // нужно как то доаблять их сразу в лист chunksOnScene
+        chunksOnScene.Add(bufferChunk);
         IfAddChunk();
     }
 
@@ -60,7 +64,7 @@ public class Generator : MonoBehaviour {
     {
         zNotePosCursor += 30;
         numberOfLastChunk++;
-        RemoveOldChunk();
+        //RemoveOldChunk();
     }
 
     int WhichChunkNeed()
@@ -86,9 +90,28 @@ public class Generator : MonoBehaviour {
 
     void RemoveOldChunk()
     {
-        if (chunksOnScene.Count >= 12)
+        GameObject bufferChunk = chunksOnScene[0];
+        chunksOnScene.Remove(bufferChunk);
+        Destroy(bufferChunk);
+    }
+
+    void RemoveOldChunk(float z)
+    {
+        for (int i = 0; i < chunksOnScene.Count; i++)
         {
-            
+            GameObject bufferChunk = chunksOnScene[i];
+            float chunkZ = bufferChunk.transform.position.z;
+            if (chunkZ > z)
+            {
+            if (i == 0)
+                break;
+                for (int x = 0; x < i; x++)
+                {
+                    Destroy(chunksOnScene[x]);
+                }
+                chunksOnScene.RemoveRange(0, i);
+                break;
+            }
         }
     }
 }

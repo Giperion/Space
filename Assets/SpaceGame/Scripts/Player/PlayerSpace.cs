@@ -167,8 +167,11 @@ public class PlayerSpace : MonoBehaviour
     // Обработка скорости виверны относительно её положения
     void BustSpeed(float nowPosition, int nowStep)
     {
-        ForceSpeed = (nowPosition/100) * nowStep;
-        myPlayerRigid.AddForce(transform.forward * ForceSpeed);
+        if (myPlayerRigid.velocity.z <= 17) // тестовый ограничитель скорости
+        { 
+            ForceSpeed = (nowPosition/100) * nowStep;
+            myPlayerRigid.AddForce(transform.forward * ForceSpeed);
+        }
         //print(HowManyForce.ToString());
         ScoreText.text = "Score: " + nowPosition.ToString();
         SpeedText.text = "Motor acceleration: " + ForceSpeed.ToString();

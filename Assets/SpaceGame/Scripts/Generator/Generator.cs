@@ -24,17 +24,13 @@ public class Generator : MonoBehaviour {
     {
         if (needToReedNow)
             StartCoroutine(callPositionPlayer());
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            RemoveOldChunk(PlayerOnScene.transform.position.z);
-        }
     }
 
     IEnumerator callPositionPlayer()
     {
         needToReedNow = false;
         AddCunk();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         needToReedNow = true;
     }
 
@@ -64,7 +60,7 @@ public class Generator : MonoBehaviour {
     {
         zNotePosCursor += 30;
         numberOfLastChunk++;
-        //RemoveOldChunk();
+        RemoveOldChunk(PlayerOnScene.transform.position.z - 15);
     }
 
     int WhichChunkNeed()

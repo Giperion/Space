@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 3d961cc9ccb3ce442a1824065c3bd2ed
+timeCreated: 1443275922
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: ankle_L
+    100002: ankle_R
+    100004: back_toe4_0_B_L
+    100006: back_toe5_0_B_R
+    100008: bicep_L
+    100010: bicep_R
+    100012: chest_fix
+    100014: chest_fix_drop
+    100016: clavicle_L
+    100018: clavicle_R
+    100020: elbow_L
+    100022: elbow_R
+    100024: finger_L_R0C0
+    100026: finger_L_R0C1
+    100028: finger_L_R0C2
+    100030: finger_L_R1C0
+    100032: finger_L_R1C1
+    100034: finger_L_R1C2
+    100036: finger_L_R2C0
+    100038: finger_L_R2C1
+    100040: finger_L_R2C2
+    100042: finger_L_R3C0
+    100044: finger_L_R3C1
+    100046: finger_L_R3C2
+    100048: finger_R_R0C0
+    100050: finger_R_R0C1
+    100052: finger_R_R0C2
+    100054: finger_R_R1C0
+    100056: finger_R_R1C1
+    100058: finger_R_R1C2
+    100060: finger_R_R2C0
+    100062: finger_R_R2C1
+    100064: finger_R_R2C2
+    100066: finger_R_R3C0
+    100068: finger_R_R3C1
+    100070: finger_R_R3C2
+    100072: hair_fix_L
+    100074: hair_fix_R
+    100076: head1
+    100078: hip0_0
+    100080: jaw
+    100082: knee_L
+    100084: knee_R
+    100086: membrane_L_R0C0
+    100088: membrane_L_R0C1
+    100090: membrane_L_R1C0
+    100092: membrane_L_R1C1
+    100094: membrane_L_R2C0
+    100096: membrane_L_R3C0
+    100098: membrane_R_R0C0
+    100100: membrane_R_R0C1
+    100102: membrane_R_R1C0
+    100104: membrane_R_R1C1
+    100106: membrane_R_R2C1
+    100108: membrane_R_R3C1
+    100110: neck01
+    100112: neck02
+    100114: neck03
+    100116: neck04
+    100118: neck05
+    100120: neck06
+    100122: neck07
+    100124: neck08
+    100126: neckFur_L_R1C0
+    100128: neckFur_L_R1C1
+    100130: neckFur_L_R1C2
+    100132: neckFur_R_R1C0
+    100134: neckFur_R_R1C1
+    100136: neckFur_R_R1C2
+    100138: root
+    100140: spike01
+    100142: spike02
+    100144: spike03
+    100146: spike06
+    100148: spike07
+    100150: spine1
+    100152: spine1_1
+    100154: tail_R0C0
+    100156: tail_R1C0
+    100158: tail_R2C0
+    100160: tail_R3C0
+    100162: tail_R4C0
+    100164: tail_R5C0
+    100166: tail_R6C0
+    100168: tail_R7C0
+    100170: tail_R8C0
+    100172: thigh_L
+    100174: thigh_R
+    100176: toe_bird_L
+    100178: toe_bird_R
+    100180: toe_index_L
+    100182: toe_index_R
+    100184: toe_pinky_L
+    100186: toe_pinky_R
+    100188: toeBase_L
+    100190: toeBase_R
+    100192: winter_wvyern_sfm_model.dmx
+    100194: winter_wvyern_sfm_model.dmx_skeleton
+    100196: //RootNode
+    100198: wrist_L
+    100200: wrist_R
+    400000: ankle_L
+    400002: ankle_R
+    400004: back_toe4_0_B_L
+    400006: back_toe5_0_B_R
+    400008: bicep_L
+    400010: bicep_R
+    400012: chest_fix
+    400014: chest_fix_drop
+    400016: clavicle_L
+    400018: clavicle_R
+    400020: elbow_L
+    400022: elbow_R
+    400024: finger_L_R0C0
+    400026: finger_L_R0C1
+    400028: finger_L_R0C2
+    400030: finger_L_R1C0
+    400032: finger_L_R1C1
+    400034: finger_L_R1C2
+    400036: finger_L_R2C0
+    400038: finger_L_R2C1
+    400040: finger_L_R2C2
+    400042: finger_L_R3C0
+    400044: finger_L_R3C1
+    400046: finger_L_R3C2
+    400048: finger_R_R0C0
+    400050: finger_R_R0C1
+    400052: finger_R_R0C2
+    400054: finger_R_R1C0
+    400056: finger_R_R1C1
+    400058: finger_R_R1C2
+    400060: finger_R_R2C0
+    400062: finger_R_R2C1
+    400064: finger_R_R2C2
+    400066: finger_R_R3C0
+    400068: finger_R_R3C1
+    400070: finger_R_R3C2
+    400072: hair_fix_L
+    400074: hair_fix_R
+    400076: head1
+    400078: hip0_0
+    400080: jaw
+    400082: knee_L
+    400084: knee_R
+    400086: membrane_L_R0C0
+    400088: membrane_L_R0C1
+    400090: membrane_L_R1C0
+    400092: membrane_L_R1C1
+    400094: membrane_L_R2C0
+    400096: membrane_L_R3C0
+    400098: membrane_R_R0C0
+    400100: membrane_R_R0C1
+    400102: membrane_R_R1C0
+    400104: membrane_R_R1C1
+    400106: membrane_R_R2C1
+    400108: membrane_R_R3C1
+    400110: neck01
+    400112: neck02
+    400114: neck03
+    400116: neck04
+    400118: neck05
+    400120: neck06
+    400122: neck07
+    400124: neck08
+    400126: neckFur_L_R1C0
+    400128: neckFur_L_R1C1
+    400130: neckFur_L_R1C2
+    400132: neckFur_R_R1C0
+    400134: neckFur_R_R1C1
+    400136: neckFur_R_R1C2
+    400138: root
+    400140: spike01
+    400142: spike02
+    400144: spike03
+    400146: spike06
+    400148: spike07
+    400150: spine1
+    400152: spine1_1
+    400154: tail_R0C0
+    400156: tail_R1C0
+    400158: tail_R2C0
+    400160: tail_R3C0
+    400162: tail_R4C0
+    400164: tail_R5C0
+    400166: tail_R6C0
+    400168: tail_R7C0
+    400170: tail_R8C0
+    400172: thigh_L
+    400174: thigh_R
+    400176: toe_bird_L
+    400178: toe_bird_R
+    400180: toe_index_L
+    400182: toe_index_R
+    400184: toe_pinky_L
+    400186: toe_pinky_R
+    400188: toeBase_L
+    400190: toeBase_R
+    400192: winter_wvyern_sfm_model.dmx
+    400194: winter_wvyern_sfm_model.dmx_skeleton
+    400196: //RootNode
+    400198: wrist_L
+    400200: wrist_R
+    4300000: winter_wvyern_sfm_model.dmx
+    7400000: BindPose
+    7400002: Arcticburn
+    7400004: ArcticBurnEnd
+    7400006: Death
+    7400008: IdleFlying
+    7400010: RunFlyingHaste
+    7400012: RunInjuredHaste
+    7400014: Spawn
+    9500000: //RootNode
+    13700000: winter_wvyern_sfm_model.dmx
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BindPose
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|BindPose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Arcticburn
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|cast01_arctic_burn
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArcticBurnEnd
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|cast01_arctic_burn_end
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|death
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleFlying
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|idle_flying
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunFlyingHaste
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|run_flying_haste
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: RunInjuredHaste
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|run_injured_haste
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Spawn
+      takeName: winter_wvyern_sfm_model.dmx_skeleton|spawn
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/chest_fix/chest_fix_drop
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/membrane_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C0/finger_L_R1C0/finger_L_R2C0/finger_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C1/finger_L_R1C1/finger_L_R2C1/finger_L_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/finger_L_R0C2/finger_L_R1C2/finger_L_R2C2/finger_L_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_L/bicep_L/elbow_L/wrist_L/membrane_L_R0C0/membrane_L_R1C0/membrane_L_R2C0/membrane_L_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/membrane_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C0/finger_R_R1C0/finger_R_R2C0/finger_R_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C1/finger_R_R1C1/finger_R_R2C1/finger_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/finger_R_R0C2/finger_R_R1C2/finger_R_R2C2/finger_R_R3C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/clavicle_R/bicep_R/elbow_R/wrist_R/membrane_R_R0C1/membrane_R_R1C1/membrane_R_R2C1/membrane_R_R3C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/hair_fix_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neck06/neck07/neck08/head1/jaw
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_L_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/neckFur_R_R1C2
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neck05/spike01
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_L_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/neck04/neckFur_R_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/neck02/neck03/spike02
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1/neck01/spike03
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/spike06
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/spike07
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/tail_R0C0/tail_R1C0/tail_R2C0/tail_R3C0/tail_R4C0/tail_R5C0/tail_R6C0/tail_R7C0/tail_R8C0
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/back_toe4_0_B_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_bird_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_index_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_L/knee_L/ankle_L/toeBase_L/toe_pinky_L
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/back_toe5_0_B_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_bird_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_index_R
+        weight: 1
+      - path: winter_wvyern_sfm_model.dmx_skeleton/root/spine1_1/hip0_0/thigh_R/knee_R/ankle_R/toeBase_R/toe_pinky_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .300000012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

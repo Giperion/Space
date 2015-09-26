@@ -81,7 +81,11 @@ public class PlayerSpace : MonoBehaviour
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 0)
-            TakeSpeed(1, 120);        
+        {
+            TakeSpeed(1, 120);
+            GetComponent<Animator>().SetFloat("Speed", 1.0f);
+        }
+              
         else if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 1)
         {
             myPlayerRigid.AddForce(transform.forward * 150);

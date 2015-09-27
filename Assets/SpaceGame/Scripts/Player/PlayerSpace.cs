@@ -27,6 +27,14 @@ public class PlayerSpace : MonoBehaviour
     int HP; // Жизнь
     float ForceSpeed; // Скорость/форс виверы
 
+    //ограничения
+    [Header("Ограничения передвижения")]
+    public float MinX;
+    public float MaxX;
+
+    public float MinY;
+    public float MaxY;
+
     public float HowManyForce { get { return ForceSpeed; } }
     public int numberOfIceBlasts { get { return IceBlasts; } }
 
@@ -48,28 +56,26 @@ public class PlayerSpace : MonoBehaviour
 	
 	void Update ()
     {
+        //товарищЪ это такая дичь, что я её рефакторить хотел!ы
+#if UNITY_EDITOR
         float x = myPlayerTrans.position.x;
         float z = myPlayerTrans.position.z;
+        float y = myPlayerTrans.position.y;
+
         BustSpeed(z, stepSpeed);
         if (HP <= 0)
             Application.LoadLevel("SceneSpace");
 
         if (Input.GetKey(KeyCode.A))
-            if (x >= -4.5)
                 MoveInSpace(Vector3.left);
 
         if (Input.GetKey(KeyCode.D))
-            if(x <= 4.5)
                 MoveInSpace(Vector3.right);
 
-        float y = myPlayerTrans.position.y;
-
         if (Input.GetKey(KeyCode.W))
-            if (y <= 7.5)
                 MoveInSpace(Vector3.up);
 
         if (Input.GetKey(KeyCode.S))
-            if (y >= -1.5)
                 MoveInSpace(Vector3.down);
 
         if (Input.GetKeyDown(KeyCode.R))
@@ -109,6 +115,8 @@ public class PlayerSpace : MonoBehaviour
         Vector3 newVel = ClearVelocity(myPlayerRigid.velocity);
         myPlayerRigid.velocity = newVel;
         CurrentVelocity = myPlayerRigid.velocity;
+#endif
+
     }
 
     // Выравнивание форса по x и y к 0
@@ -157,8 +165,16 @@ public class PlayerSpace : MonoBehaviour
     // Передвижение по x и y
     void MoveInSpace(Vector3 Where, int SpeedMove = 10)
     {
-        if (stepSpeed != 0)
-            transform.Translate(Where * Time.deltaTime * 10);
+        Vector3 pos = myPlayerTrans.position;
+        Vector3 FinalMovement = Where * Time.deltaTime * 10;
+        Vector3 NewPos = pos + FinalMovement;
+
+        //check range
+        bool CheckOK = true;
+        if (NewPos.x > MaxX || NewPos.x < MinX || NewPos.y > MaxY || NewPos.y < MinY) CheckOK = false;
+
+        if (stepSpeed != 0 && CheckOK)
+            transform.Translate(FinalMovement);
     }
 
     // Буст виверы при старте
@@ -227,5 +243,11 @@ public class PlayerSpace : MonoBehaviour
     IEnumerator TimeSpell(int second, int reloadSpell)
     {
         yield return new WaitForSeconds(second);
+    }
+
+
+    void MobileControl ()
+    {
+
     }
 }

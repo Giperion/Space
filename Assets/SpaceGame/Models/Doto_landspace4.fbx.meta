@@ -1,32 +1,15 @@
 fileFormatVersion: 2
-guid: 4619c666f5fe1cb4e8847ebacfdecdbf
-timeCreated: 1442178978
+guid: 51275052274f734479ae40dfcd7307f5
+timeCreated: 1443360001
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: justice__1
-    100002: justice_usemtl_1
-    100004: justice_usemtl_3
-    100006: //RootNode
-    100008: mesh01
-    400000: justice__1
-    400002: justice_usemtl_1
-    400004: justice_usemtl_3
-    400006: //RootNode
-    400008: mesh01
-    2300000: justice__1
-    2300002: justice_usemtl_1
-    2300004: justice_usemtl_3
-    2300006: mesh01
-    3300000: justice__1
-    3300002: justice_usemtl_1
-    3300004: justice_usemtl_3
-    3300006: mesh01
-    4300000: justice__1
-    4300002: justice_usemtl_1
-    4300004: justice_usemtl_3
-    4300006: mesh01
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Plane.008
   materials:
     importMaterials: 1
     materialName: 0
@@ -50,7 +33,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 200
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -83,10 +66,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

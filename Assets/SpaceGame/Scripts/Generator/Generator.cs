@@ -13,28 +13,30 @@ public class Generator : MonoBehaviour {
     int numberOfLastChunk = 0;
     int typeOfLastChunk = 0; // 0 - лес, 1 - переход лес/пещера, 2 - пещера, 3 - переход пещера/лес 
 
-    bool needToReedNow = true;
 
     void Start ()
     {
         PlayerOnScene = GameObject.FindGameObjectWithTag("Player");
+        StartCoroutine(callPositionPlayer());
     }
 
-	void Update ()
+
+    void Update()
     {
-        if (needToReedNow)
-            StartCoroutine(callPositionPlayer());
+
     }
 
     IEnumerator callPositionPlayer()
     {
-        needToReedNow = false;
-        AddCunk();
-        yield return new WaitForSeconds(1);
-        needToReedNow = true;
+        while (true)
+        {
+            RemoveOldChunk(PlayerOnScene.transform.position.z - 75.0f);
+            AddChunk();
+            yield return new WaitForSeconds(1);
+        }
     }
 
-    void AddCunk()
+    void AddChunk()
     {
         if (numberOfLastChunk == 0)
         {
@@ -43,7 +45,7 @@ public class Generator : MonoBehaviour {
                 CreateChunk();
             }  
         }
-        else if (numberOfLastChunk != 0 && chunksOnScene.Count < 12)
+        else if (numberOfLastChunk != 0 && chunksOnScene.Count < 5)
         {           
             CreateChunk();  
         }  
@@ -58,9 +60,8 @@ public class Generator : MonoBehaviour {
 
     void IfAddChunk()
     {
-        zNotePosCursor += 30;
+        zNotePosCursor += 60;
         numberOfLastChunk++;
-        RemoveOldChunk(PlayerOnScene.transform.position.z - 15);
     }
 
     int WhichChunkNeed()

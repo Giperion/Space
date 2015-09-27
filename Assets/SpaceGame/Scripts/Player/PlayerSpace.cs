@@ -16,6 +16,7 @@ public class PlayerSpace : MonoBehaviour
     public Text stepSpeedText;
     public Text LasersText;
     public Text HPText;
+    public Text FPSText;
 
     // Не извесное говно, не помню для чего создал
     Rigidbody myPlayerRigid;
@@ -38,6 +39,7 @@ public class PlayerSpace : MonoBehaviour
     public float HowManyForce { get { return ForceSpeed; } }
     public int numberOfIceBlasts { get { return IceBlasts; } }
 
+
     void Start ()
     {
         myPlayerRigid = this.gameObject.GetComponent<Rigidbody>();
@@ -57,30 +59,33 @@ public class PlayerSpace : MonoBehaviour
 	void Update ()
     {
         //товарищЪ это такая дичь, что я её рефакторить хотел!ы
-#if UNITY_EDITOR
-        float x = myPlayerTrans.position.x;
+        //DebugUpdate();
+        MobileControl();
+    }
+
+    void DebugUpdate()
+    {
         float z = myPlayerTrans.position.z;
-        float y = myPlayerTrans.position.y;
 
         BustSpeed(z, stepSpeed);
         if (HP <= 0)
             Application.LoadLevel("SceneSpace");
 
         if (Input.GetKey(KeyCode.A))
-                MoveInSpace(Vector3.left);
+            MoveInSpace(Vector3.left);
 
         if (Input.GetKey(KeyCode.D))
-                MoveInSpace(Vector3.right);
+            MoveInSpace(Vector3.right);
 
         if (Input.GetKey(KeyCode.W))
-                MoveInSpace(Vector3.up);
+            MoveInSpace(Vector3.up);
 
         if (Input.GetKey(KeyCode.S))
-                MoveInSpace(Vector3.down);
+            MoveInSpace(Vector3.down);
 
         if (Input.GetKeyDown(KeyCode.R))
             Application.LoadLevel("SceneSpace");
-        
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             IceArmor();
@@ -88,14 +93,13 @@ public class PlayerSpace : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 0)
         {
-            TakeSpeed(1, 120);
+            TakeSpeed(stepSpeed++, 120);
             GetComponent<Animator>().SetFloat("Speed", 1.0f);
         }
-              
+
         else if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 1)
         {
-            myPlayerRigid.AddForce(transform.forward * 150);
-            stepSpeed++;
+            TakeSpeed(stepSpeed++, 150);
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -104,8 +108,8 @@ public class PlayerSpace : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
                 Debug.DrawLine(ray.origin, hit.point, Color.cyan);
             if (IceBlasts >= 1)
-            {                
-                IceBlastsTake(); 
+            {
+                IceBlastsTake();
             }
         }
         if (Input.GetKeyDown(KeyCode.Keypad1))
@@ -115,8 +119,6 @@ public class PlayerSpace : MonoBehaviour
         Vector3 newVel = ClearVelocity(myPlayerRigid.velocity);
         myPlayerRigid.velocity = newVel;
         CurrentVelocity = myPlayerRigid.velocity;
-#endif
-
     }
 
     // Выравнивание форса по x и y к 0
@@ -163,10 +165,10 @@ public class PlayerSpace : MonoBehaviour
     } 
     
     // Передвижение по x и y
-    void MoveInSpace(Vector3 Where, int SpeedMove = 10)
+    void MoveInSpace(Vector3 Where, float SpeedMove = 10)
     {
         Vector3 pos = myPlayerTrans.position;
-        Vector3 FinalMovement = Where * Time.deltaTime * 10;
+        Vector3 FinalMovement = Where * Time.deltaTime * SpeedMove;
         Vector3 NewPos = pos + FinalMovement;
 
         //check range
@@ -187,7 +189,12 @@ public class PlayerSpace : MonoBehaviour
     // Обработка скорости виверны относительно её положения
     void BustSpeed(float nowPosition, int nowStep)
     {
-        if (myPlayerRigid.velocity.z <= 16) // тестовый ограничитель скорости
+        int SpeedFactor = 16;
+        if (nowPosition > 1000)
+        {
+            SpeedFactor = 32;
+        }
+        if (myPlayerRigid.velocity.z <= SpeedFactor) // тестовый ограничитель скорости
         { 
             ForceSpeed = (nowPosition/100) * nowStep;
             myPlayerRigid.AddForce(transform.forward * ForceSpeed);
@@ -197,6 +204,8 @@ public class PlayerSpace : MonoBehaviour
         SpeedText.text = "Motor acceleration: " + ForceSpeed.ToString();
         stepSpeedText.text = "Step speed: " + nowStep.ToString();
         HPText.text = "HP: " + HP.ToString();
+
+        FPSText.text = "FPS: " + FPSCounter.FramesPerSec.ToString();
     }
 
     // Таймер для возможности использования супер скорости на старте
@@ -246,8 +255,52 @@ public class PlayerSpace : MonoBehaviour
     }
 
 
+    Vector2 test_StartPos;
+    Vector2 test_CurrentPos;
+    Vector2 test_Offset;
+    bool IsMovementEvent;
+
     void MobileControl ()
     {
+        float z = myPlayerTrans.position.z;
+        BustSpeed(z, stepSpeed);
+        //start game sequence
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+                    IsMovementEvent = true;
+                    test_StartPos = touch.position;
+                    break;
+                case TouchPhase.Canceled:
+                    IsMovementEvent = false;
+                    break;
+                case TouchPhase.Ended:
+                    if (stepSpeed < 3)
+                    {
+                        TakeSpeed(++stepSpeed, 120);
+                        GetComponent<Animator>().SetFloat("Speed", 1.0f);
+                    }
+                    IsMovementEvent = false;
+                    break;
+                case TouchPhase.Moved:
+                    test_CurrentPos = touch.position;
 
+                    test_Offset = test_CurrentPos - test_StartPos;
+                    break;
+                case TouchPhase.Stationary:
+                    break;
+                default:
+                    break;
+            }
+
+            if (test_Offset != Vector2.zero)
+            {
+                MoveInSpace(test_Offset, 0.05f);
+            }
+        }
+        
     }
 }

@@ -9,7 +9,7 @@ public class Generator : MonoBehaviour {
     
     GameObject PlayerOnScene;
 
-    int zNotePosCursor = 0;
+    float zNotePosCursor = 0;
     int numberOfLastChunk = 0;
     int typeOfLastChunk = 0; // 0 - лес, 1 - переход лес/пещера, 2 - пещера, 3 - переход пещера/лес 
 
@@ -32,7 +32,7 @@ public class Generator : MonoBehaviour {
         {
             RemoveOldChunk(PlayerOnScene.transform.position.z - 75.0f);
             AddChunk();
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
@@ -60,7 +60,7 @@ public class Generator : MonoBehaviour {
 
     void IfAddChunk()
     {
-        zNotePosCursor += 60;
+        zNotePosCursor += 59.98f;
         numberOfLastChunk++;
     }
 

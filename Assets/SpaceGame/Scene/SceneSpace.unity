@@ -1608,6 +1608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   immortality: 1
+  isPCControl: 1
   PrefabOfIceBlast: {fileID: 0}
   ScoreText: {fileID: 126609091}
   SpeedText: {fileID: 306935776}

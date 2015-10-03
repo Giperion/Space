@@ -60,24 +60,6 @@ public class Generator : MonoBehaviour {
 
     void GenerateThinksOnChunk()
     {
-        switch (typeOfLastChunk)
-        {
-            case 0:
-                print("");
-                break;
-            case 1:
-                print("");
-                break;
-            case 2:
-                print("");
-                break;
-            case 3:
-                print("");
-                break;
-            default:
-                print("НЕ ИЗВЕСТНЫЙ ТИП ЧАНКА");
-                break;
-        }
     }
 
     // Движение курсора и номер последнего чанка

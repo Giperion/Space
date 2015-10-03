@@ -6,6 +6,7 @@ public class PlayerSpace : MonoBehaviour
 {
     [Header("Состояния персонажа")]
     public bool immortality = false; // Неузвимость 
+    public bool isPCControl;
 
     [Header("Префабы объектов")]
     public GameObject PrefabOfIceBlast; // Снаяряд выстрела
@@ -27,6 +28,8 @@ public class PlayerSpace : MonoBehaviour
     int stepSpeed; // Ступень скорости
     int HP; // Жизнь
     float ForceSpeed; // Скорость/форс виверы
+
+    float AnimSpeed;
 
     //ограничения
     [Header("Ограничения передвижения")]
@@ -59,13 +62,17 @@ public class PlayerSpace : MonoBehaviour
 	void Update ()
     {
         //товарищЪ это такая дичь, что я её рефакторить хотел!ы
-        DebugUpdate();
-        //MobileControl();
+        if (isPCControl) DebugUpdate();
+        else MobileControl();
     }
 
     void DebugUpdate()
     {
         float z = myPlayerTrans.position.z;
+
+        float TargetAnimSpeed = myPlayerRigid.velocity.z * 0.3f;
+        AnimSpeed = Mathf.Lerp(AnimSpeed, TargetAnimSpeed, Time.deltaTime * 1.5f);
+        GetComponent<Animator>().SetFloat("Speed", AnimSpeed);
 
         BustSpeed(z, stepSpeed);
         if (HP <= 0)
@@ -94,7 +101,6 @@ public class PlayerSpace : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 0)
         {
             TakeSpeed(++stepSpeed, 120);
-            GetComponent<Animator>().SetFloat("Speed", 1.0f);
         }
 
         else if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 1)

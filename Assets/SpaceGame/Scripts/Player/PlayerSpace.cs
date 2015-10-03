@@ -51,7 +51,7 @@ public class PlayerSpace : MonoBehaviour
         // Инициализация переменных
         stepSpeed = 0;
         IceBlasts = 1;
-        HP = 10;
+        HP = 606;
 
         // Обработка интерфейса
         StartCoroutine("CanUseBoost"); // Таймер для возможности использования супер скорости на старте
@@ -194,14 +194,19 @@ public class PlayerSpace : MonoBehaviour
     // Обработка скорости виверны относительно её положения
     void BustSpeed(float nowPosition, int nowStep)
     {
-        int SpeedFactor = 16;
-        if (nowPosition > 1000)
+        int maxSpeed = 16;
+        if (nowPosition >= 300 && maxSpeed != 20)
         {
-            SpeedFactor = 32;
+            maxSpeed = 20;
         }
-        if (myPlayerRigid.velocity.z <= SpeedFactor) // тестовый ограничитель скорости
+        if (nowPosition >= 500 && maxSpeed != 25)
+        {
+            maxSpeed = 25;
+        }
+
+        if (myPlayerRigid.velocity.z <= maxSpeed) // тестовый ограничитель скорости
         { 
-            ForceSpeed = (nowPosition/100) * nowStep;
+            ForceSpeed = nowPosition/50;
             myPlayerRigid.AddForce(transform.forward * ForceSpeed);
         }
         //print(HowManyForce.ToString());

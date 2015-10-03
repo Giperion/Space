@@ -28,9 +28,9 @@ public class TowerEnemy : MonoBehaviour
         }
     }
     IEnumerator TimeForFire()
-    {        
-        yield return new WaitForSeconds(2);
+    {
         CreateShell();
+        yield return new WaitForSeconds(2);
         stayOfReload = true;
     }
 

@@ -59,8 +59,8 @@ public class PlayerSpace : MonoBehaviour
 	void Update ()
     {
         //товарищЪ это такая дичь, что я её рефакторить хотел!ы
-        //DebugUpdate();
-        MobileControl();
+        DebugUpdate();
+        //MobileControl();
     }
 
     void DebugUpdate()
@@ -73,7 +73,7 @@ public class PlayerSpace : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
             MoveInSpace(Vector3.left);
-
+     
         if (Input.GetKey(KeyCode.D))
             MoveInSpace(Vector3.right);
 
@@ -93,13 +93,13 @@ public class PlayerSpace : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 0)
         {
-            TakeSpeed(stepSpeed++, 120);
+            TakeSpeed(++stepSpeed, 120);
             GetComponent<Animator>().SetFloat("Speed", 1.0f);
         }
 
         else if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 1)
         {
-            TakeSpeed(stepSpeed++, 150);
+            TakeSpeed(++stepSpeed, 150);
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -120,7 +120,7 @@ public class PlayerSpace : MonoBehaviour
         myPlayerRigid.velocity = newVel;
         CurrentVelocity = myPlayerRigid.velocity;
     }
-
+    
     // Выравнивание форса по x и y к 0
     Vector3 ClearVelocity(Vector3 Vel) 
     {
@@ -174,9 +174,8 @@ public class PlayerSpace : MonoBehaviour
         //check range
         bool CheckOK = true;
         if (NewPos.x > MaxX || NewPos.x < MinX || NewPos.y > MaxY || NewPos.y < MinY) CheckOK = false;
-
         if (stepSpeed != 0 && CheckOK)
-            transform.Translate(FinalMovement);
+            transform.Translate(FinalMovement);        
     }
 
     // Буст виверы при старте

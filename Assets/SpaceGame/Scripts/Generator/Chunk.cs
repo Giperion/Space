@@ -27,7 +27,7 @@ public class Chunk : MonoBehaviour {
         //}
         //Instantiate(PrefabsForGenerick[0], this.transform.localPosition, Quaternion.identity);
     }
-
+    
     public GameObject[] GetAllPlacesForJunk ()
     {
         return null;

@@ -35,12 +35,31 @@ public class Chunk : MonoBehaviour {
 	
 	void Update ()
     {
-	    
+	    //что то произошло, и мы должны туда чето
+        type = ChunkType.cave;
+
+        string EnumName = System.Enum.GetName(typeof(ChunkType), type);
+
+        //а вот код генерации, точнее в самой генерации
+        switch (type)
+        {
+            case ChunkType.none:
+                
+                break;
+            case ChunkType.forest:
+                break;
+            case ChunkType.cave:
+                break;
+            case ChunkType.transition:
+                break;
+            default:
+                break;
+        }
 	}
 }
 
 
-public enum ChunkType
+public enum ChunkType : byte
 {
     none,
     forest,

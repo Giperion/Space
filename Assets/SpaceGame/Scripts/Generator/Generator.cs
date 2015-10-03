@@ -63,16 +63,15 @@ public class Generator : MonoBehaviour {
         switch (typeOfLastChunk)
         {
             case 0:
-                print("");
                 break;
             case 1:
-                print("");
+                //print("");
                 break;
             case 2:
-                print("");
+                //print("");
                 break;
             case 3:
-                print("");
+                //print("");
                 break;
             default:
                 print("НЕ ИЗВЕСТНЫЙ ТИП ЧАНКА");

@@ -51,6 +51,7 @@
      <Compile Include="Assets\SpaceGame\Scripts\FPSCounter.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Generator\Chunk.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Generator\Generator.cs" />
+     <Compile Include="Assets\SpaceGame\Scripts\MainMenu\ButtonsUI.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Player\CamScript.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Player\IceBlastScript.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Player\PlayerSpace.cs" />

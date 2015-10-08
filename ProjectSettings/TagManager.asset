@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Trash
   - Tower
+  - ButtomMenu
   layers:
   - Default
   - TransparentFX

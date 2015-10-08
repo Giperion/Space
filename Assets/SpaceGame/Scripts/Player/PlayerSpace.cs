@@ -214,9 +214,9 @@ public class PlayerSpace : MonoBehaviour
         SpeedText.text = "Motor acceleration: " + ForceSpeed.ToString();
         stepSpeedText.text = "Step speed: " + nowStep.ToString();
         HPText.text = "HP: " + HP.ToString();
-
         FPSText.text = "FPS: " + FPSCounter.FramesPerSec.ToString();
     }
+    
 
     // Таймер для возможности использования супер скорости на старте
     IEnumerator CanUseBoost()

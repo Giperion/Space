@@ -48,13 +48,15 @@
   <ItemGroup>
      <Compile Include="Assets\SpaceGame\Scripts\Bonuses\B_LaserScript.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Bonuses\B_SpeedScript.cs" />
-     <Compile Include="Assets\SpaceGame\Scripts\FPSCounter.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Generator\Chunk.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Generator\Generator.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\MainMenu\ButtonsUI.cs" />
+     <Compile Include="Assets\SpaceGame\Scripts\MainMenu\SkillTree.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Player\CamScript.cs" />
+     <Compile Include="Assets\SpaceGame\Scripts\Player\FPSCounter.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Player\IceBlastScript.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Player\PlayerSpace.cs" />
+     <Compile Include="Assets\SpaceGame\Scripts\Player\UIController.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Tower\TowerEnemy.cs" />
      <Compile Include="Assets\SpaceGame\Scripts\Tower\shellOfTower.cs" />
      <None Include="Assets\SpaceGame\Shaders\Landspace.shader" />

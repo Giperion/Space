@@ -11,22 +11,14 @@ public class PlayerSpace : MonoBehaviour
     [Header("Префабы объектов")]
     public GameObject PrefabOfIceBlast; // Снаяряд выстрела
 
-    [Header("UI интерфейса виверны")]
-    public Text ScoreText;
-    public Text SpeedText;
-    public Text stepSpeedText;
-    public Text LasersText;
-    public Text HPText;
-    public Text FPSText;
-
     // Не извесное говно, не помню для чего создал
     Rigidbody myPlayerRigid;
     Transform myPlayerTrans;
     Vector3 CurrentVelocity;
 
-    int IceBlasts; // Колличесто зарядов виверы для выстрела
-    int stepSpeed; // Ступень скорости
-    int HP; // Жизнь
+    int _IceBlasts; // Колличесто зарядов виверы для выстрела
+    int _stepSpeed; // Ступень скорости
+    int _HP; // Жизнь
     float ForceSpeed; // Скорость/форс виверы
 
     float AnimSpeed;
@@ -39,8 +31,12 @@ public class PlayerSpace : MonoBehaviour
     public float MinY;
     public float MaxY;
 
+
+
     public float HowManyForce { get { return ForceSpeed; } }
-    public int numberOfIceBlasts { get { return IceBlasts; } }
+    public int numberOfIceBlasts { get { return _IceBlasts; } }
+    public int HP { get { return _HP; } }
+    public int stepSpeed { get { return _stepSpeed; } }
 
 
     void Start ()
@@ -49,14 +45,12 @@ public class PlayerSpace : MonoBehaviour
         myPlayerTrans = this.gameObject.GetComponent<Transform>();
 
         // Инициализация переменных
-        stepSpeed = 0;
-        IceBlasts = 1;
-        HP = 606;
+        _stepSpeed = 0;
+        _IceBlasts = 1;
+        _HP = 606;
 
-        // Обработка интерфейса
         StartCoroutine("CanUseBoost"); // Таймер для возможности использования супер скорости на старте
-        LasersText.text = "IceBlasts: " + IceBlasts.ToString();
-        HPText.text = "HP: " + HP.ToString();
+
     }
 	
 	void Update ()
@@ -74,8 +68,8 @@ public class PlayerSpace : MonoBehaviour
         AnimSpeed = Mathf.Lerp(AnimSpeed, TargetAnimSpeed, Time.deltaTime * 1.5f);
         GetComponent<Animator>().SetFloat("Speed", AnimSpeed);
 
-        BustSpeed(z, stepSpeed);
-        if (HP <= 0)
+        BustSpeed(z, _stepSpeed);
+        if (_HP <= 0)
             Application.LoadLevel("SceneSpace");
 
         if (Input.GetKey(KeyCode.A))
@@ -98,14 +92,14 @@ public class PlayerSpace : MonoBehaviour
             IceArmor();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 0)
+        if (Input.GetKeyDown(KeyCode.Space) && _stepSpeed == 0)
         {
-            TakeSpeed(++stepSpeed, 120);
+            TakeSpeed(++_stepSpeed, 120);
         }
 
-        else if (Input.GetKeyDown(KeyCode.Space) && stepSpeed == 1)
+        else if (Input.GetKeyDown(KeyCode.Space) && _stepSpeed == 1)
         {
-            TakeSpeed(++stepSpeed, 150);
+            TakeSpeed(++_stepSpeed, 150);
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
@@ -113,7 +107,7 @@ public class PlayerSpace : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
                 Debug.DrawLine(ray.origin, hit.point, Color.cyan);
-            if (IceBlasts >= 1)
+            if (_IceBlasts >= 1)
             {
                 IceBlastsTake();
             }
@@ -166,7 +160,7 @@ public class PlayerSpace : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trash" && immortality != true)
         {
-            HP--;
+            _HP--;
         }
     } 
     
@@ -180,7 +174,7 @@ public class PlayerSpace : MonoBehaviour
         //check range
         bool CheckOK = true;
         if (NewPos.x > MaxX || NewPos.x < MinX || NewPos.y > MaxY || NewPos.y < MinY) CheckOK = false;
-        if (stepSpeed != 0 && CheckOK)
+        if (_stepSpeed != 0 && CheckOK)
             transform.Translate(FinalMovement);        
     }
 
@@ -188,7 +182,7 @@ public class PlayerSpace : MonoBehaviour
     void TakeSpeed(int stepSpeedSet = 1, int howManySpeed = 25)
     {
         myPlayerRigid.AddForce(transform.forward * howManySpeed);
-        stepSpeed = stepSpeedSet;
+        _stepSpeed = stepSpeedSet;
     }
 
     // Обработка скорости виверны относительно её положения
@@ -210,11 +204,7 @@ public class PlayerSpace : MonoBehaviour
             myPlayerRigid.AddForce(transform.forward * ForceSpeed);
         }
         //print(HowManyForce.ToString());
-        ScoreText.text = "Score: " + nowPosition.ToString();
-        SpeedText.text = "Motor acceleration: " + ForceSpeed.ToString();
-        stepSpeedText.text = "Step speed: " + nowStep.ToString();
-        HPText.text = "HP: " + HP.ToString();
-        FPSText.text = "FPS: " + FPSCounter.FramesPerSec.ToString();
+        
     }
     
 
@@ -222,8 +212,8 @@ public class PlayerSpace : MonoBehaviour
     IEnumerator CanUseBoost()
     {
         yield return new WaitForSeconds(8);
-        if (stepSpeed == 1)
-            stepSpeed++;
+        if (_stepSpeed == 1)
+            _stepSpeed++;
     }
 
     // Паблик методы бонусов
@@ -233,20 +223,19 @@ public class PlayerSpace : MonoBehaviour
     }
     public void IceBlastsTake(int HowManyIceBlastsNeed = 1)
     {
-        IceBlasts -= HowManyIceBlastsNeed;
-        LasersText.text = "Lasers: " + IceBlasts.ToString();
+        _IceBlasts -= HowManyIceBlastsNeed;
+        
     }
     public void UsingBonusIceBlastsSet(int LaserSet = 1)
     {
-        IceBlasts += LaserSet;
-        LasersText.text = "Lasers: " + IceBlasts.ToString();
+        _IceBlasts += LaserSet;       
     }
 
     // Паблик метод получения урона из вне
     public void HitHP(int hitHP)
     {
         if (!immortality)
-            HP -= hitHP;
+            _HP -= hitHP;
     }
 
     // Скиллы
@@ -273,7 +262,7 @@ public class PlayerSpace : MonoBehaviour
     void MobileControl ()
     {
         float z = myPlayerTrans.position.z;
-        BustSpeed(z, stepSpeed);
+        BustSpeed(z, _stepSpeed);
         //start game sequence
         if (Input.touchCount > 0)
         {
@@ -288,9 +277,9 @@ public class PlayerSpace : MonoBehaviour
                     IsMovementEvent = false;
                     break;
                 case TouchPhase.Ended:
-                    if (stepSpeed < 3)
+                    if (_stepSpeed < 3)
                     {
-                        TakeSpeed(++stepSpeed, 120);
+                        TakeSpeed(++_stepSpeed, 120);
                         GetComponent<Animator>().SetFloat("Speed", 1.0f);
                     }
                     IsMovementEvent = false;

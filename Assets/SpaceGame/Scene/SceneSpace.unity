@@ -98,7 +98,7 @@ GameObject:
   - 4: {fileID: 4556683}
   - 114: {fileID: 4556682}
   m_Layer: 0
-  m_Name: GeneratorTest
+  m_Name: Generator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,6 +121,35 @@ MonoBehaviour:
   - {fileID: 156566, guid: c6d7a9309e62f0043912dba8649315af, type: 2}
   - {fileID: 128386, guid: b878824479b5249439d6506c99f08a5f, type: 2}
   chunksOnScene: []
+  PrefabsOfForest:
+  - {fileID: 166448, guid: b4a998d8b4a1a5141a02b0aa960d59f9, type: 2}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  PrefabsOfTransitionForestInputCave:
+  - {fileID: 166448, guid: b4a998d8b4a1a5141a02b0aa960d59f9, type: 2}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  PrefabsOfCave:
+  - {fileID: 166448, guid: b4a998d8b4a1a5141a02b0aa960d59f9, type: 2}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  PrefabsOfTransitionCaveOutputForest:
+  - {fileID: 166448, guid: b4a998d8b4a1a5141a02b0aa960d59f9, type: 2}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  - {fileID: 100002, guid: 8f98a8c749331b44abc71e8ef19d0c31, type: 3}
+  SpecialThink:
+  - {fileID: 113624, guid: 6ffba08e7a00ca546bb35448124656b1, type: 2}
+  Bonuses:
+  - {fileID: 126626, guid: 2aec614601f0df4459b6dce32f770d2a, type: 2}
+  - {fileID: 165830, guid: 42ff389bb0133154bb56828ab3956871, type: 2}
 --- !u!4 &4556683
 Transform:
   m_ObjectHideFlags: 0
@@ -1607,7 +1636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47c397a36da10884fbefc92d4956ab57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  immortality: 1
+  immortality: 0
   isPCControl: 1
   PrefabOfIceBlast: {fileID: 0}
   ScoreText: {fileID: 126609091}
